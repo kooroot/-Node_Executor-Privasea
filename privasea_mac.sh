@@ -5,7 +5,7 @@ set -e
 if [ -z "$STY" ]; then
   SCREEN_NAME="privasea_setup_session"
   echo "현재 screen 세션이 아닙니다. 새로운 screen 세션($SCREEN_NAME)에서 스크립트를 실행합니다."
-  read -rp "Enter 키를 누르면 screen으로 진입 (취소: Ctrl + C)" dummy
+  read "dummy?Enter 키를 누르면 screen으로 진입 (취소: Ctrl + C) "
   screen -S "$SCREEN_NAME" zsh -c "$0"
   # 사용자가 screen을 detach하거나 session을 종료하면 여기로 돌아와서 스크립트가 종료됨
   exit 0
