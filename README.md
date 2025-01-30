@@ -26,6 +26,7 @@ wget https://raw.githubusercontent.com/kooroot/Node_Executor-Privasea/refs/heads
 chmod 755 privasea_mac.sh
 ./privasea_mac.sh
 ```
+- 만약 Docker가 설치되어있지않았다면 스크립트 1회 진행한 뒤 Docker를 수동으로 실행해야합니다.
 
 ---
 
