@@ -12,12 +12,20 @@
 ---
 
 ## 1. 명령어 입력
+### Linux
 ```
 wget https://raw.githubusercontent.com/kooroot/Node_Executor-Privasea/refs/heads/main/privasea.sh
 chmod 755 privasea.sh
 ./privasea.sh
 ```
 - 명령어 실행 시 screen으로 전환되며, Enter를 입력하면 스크립트가 실행됩니다.
+
+### MacOS
+```
+wget https://raw.githubusercontent.com/kooroot/Node_Executor-Privasea/refs/heads/main/privasea_mac.sh
+chmod 755 privasea_mac.sh
+./privasea_mac.sh
+```
 
 ---
 
